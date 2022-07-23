@@ -1,0 +1,33 @@
+body {
+  background-color: #3300CC;
+}
+
+.login-form {
+  width: 500px;
+  padding: 20% 0% 5% 0%;
+}
+
+.form input, .custom-file {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.form button {
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0px;
+  padding: 8px 0px;
+}
+
+#aa, #aa a {
+  font-family: 'Noto Sans', sans-serif;
+  color: #EF5350;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}

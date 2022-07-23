@@ -1,0 +1,91 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #main{
+    padding: 25% 2% 5% 2%;
+  }
+  #sub{
+    padding: 5%;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #main{
+    padding: 25% 2% 5% 2%;
+  }
+  #sub{
+    padding: 2% 5%;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #main{
+    padding: 20% 2% 0% 2%;
+  }
+  #sub{
+    padding: 2% 20%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #main{
+    padding: 15% 2% 0% 2%;
+  }
+  #sub{
+    padding: 2% 20%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #main{
+    padding: 15% 2% 0% 2%;
+  }
+  #sub{
+    padding: 2% 20%;
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+body {
+  background-image: url("../data/here1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main h1{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+     text-align: center;
+     color: #f6b502;
+}
+
+#sub h5 {
+   font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #F8F9F9;
+  }
+
+.text-center a {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 15px;
+  font-weight: 100;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+}
+
+#adm {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  color: #ABB2B9;
+}
+
+#adm a {
+  color: #0101DF;
+  text-decoration: none;
+}

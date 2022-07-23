@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://images.pexels.com/photos/6565/apple-desk-laptop-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.login-page {
+  width: 350px;
+  padding: 40% 0;
+}
+.form {
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 55px;
+}
+.form input {
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 20px;
+  padding: 15px;
+  font-size: 14px;
+}
+.form button {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+#aa, #aa a {
+  font-family: 'Noto Sans', sans-serif;
+  color: #EF5350;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
